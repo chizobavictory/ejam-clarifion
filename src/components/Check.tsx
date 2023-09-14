@@ -1,4 +1,3 @@
-import { Icon } from "@iconify/react";
 import React from "react";
 import greentick from "../assets/greentick.png";
 import bluetick from "../assets/bluetick.png"
