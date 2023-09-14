@@ -4,6 +4,7 @@ import BottomNav from "../components/BottomNav";
 import Hero from "../components/Hero";
 import Check from "../components/Check";
 import Main from "../components/Main";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Hero />
       <Check />
       <Main />
+      <Footer />
     </div>
   );
 };

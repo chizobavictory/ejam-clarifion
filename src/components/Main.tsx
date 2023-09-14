@@ -5,13 +5,46 @@ import image3 from "../assets/percentage.png";
 import image4 from "../assets/cards.png";
 import image5 from "../assets/lock.png";
 import image6 from "../assets/badge.png";
+import avatar from "../assets/avatar.png";
+import verify from "../assets/verify.png";
 import { Icon } from "@iconify/react";
 
 const Main = () => {
   return (
     <div className="grid grid-cols-2 gap-8 p-8 mx-36 bg-[#FAFAFA] mt-8 rounded-sm">
-      <div>
-        <img src={image} alt="main" />
+      <div className="flex flex-col gap-6">
+        <div>
+          <img src={image} alt="main" />
+        </div>
+        <div className="bg-white rounded-md flex flex-col gap-4 p-4">
+          <div className="flex flex-row gap-4 items-center">
+            <div>
+              <img src={avatar} alt="" />
+            </div>
+            <div className="flex-col flex">
+              <div className="flex text-[#FBBC04]">
+                <Icon icon="ant-design:star-filled" width="10" height="10" />
+                <Icon icon="ant-design:star-filled" width="10" height="10" />
+                <Icon icon="ant-design:star-filled" width="10" height="10" />
+                <Icon icon="ant-design:star-filled" width="10" height="10" />
+                <Icon icon="ant-design:star-filled" width="10" height="10" />
+              </div>
+              <div className="flex gap-4">
+                <p>Ken T.</p>
+                <div className="flex flex-row items-center gap-2">
+                  <img src={verify} alt="" />
+                  <p className="text-xs text-[#5BB59A]">Verified Customer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p className="text-[#4D5254]">
+              “As soon as the Clarifions arrived I put one in my bedroom. This was late in the afternoon. When I went to the bedroom in the evening it
+              smelled clean. When I went to bed I felt I could breathe better. Wonderful.”
+            </p>
+          </div>
+        </div>
       </div>
       <div className="flex flex-col gap-6">
         <div>
@@ -101,11 +134,12 @@ const Main = () => {
         </div>
         <div className="flex flex-row gap-8">
           <div className="w-80">
-            <img src={image6} alt="" className="w-full"/>
+            <img src={image6} alt="" className="w-full" />
           </div>
           <div>
             <p className="text-[#4D5254] text-base">
-            If you are not completely thrilled with your Clarifion - We have a <span className="font-bold">30 day satisfaction guarantee.</span> Please refer to our return policy at the bottom of the page for more details. Happy Shopping!
+              If you are not completely thrilled with your Clarifion - We have a <span className="font-bold">30 day satisfaction guarantee.</span>{" "}
+              Please refer to our return policy at the bottom of the page for more details. Happy Shopping!
             </p>
           </div>
         </div>
