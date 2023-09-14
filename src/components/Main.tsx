@@ -2,6 +2,9 @@ import React from "react";
 import image from "../assets/mainimage.png";
 import image2 from "../assets/mainimage2.png";
 import image3 from "../assets/percentage.png";
+import image4 from "../assets/cards.png";
+import image5 from "../assets/lock.png";
+import image6 from "../assets/badge.png";
 import { Icon } from "@iconify/react";
 
 const Main = () => {
@@ -78,6 +81,33 @@ const Main = () => {
         </div>
         <div className="bg-[#59AE43] text-white flex flex-row gap-4 p-4 items-center justify-center rounded-full w-full">
           <p>YES CLAIM MY DISCOUNT</p> <Icon icon="akar-icons:arrow-right" width="20" height="20" />
+        </div>
+        <div className="border p-2 text-[#4D5254]border-[#CFCFCF] flex justify-between text-xs">
+          <div>
+            <p>Free shipping </p>
+          </div>
+          <div className="text-[#CFCFCF]">|</div>
+          <div className="flex flex-row gap-2 items-center">
+            <img src={image5} alt="" />
+            <p>Secure 256-bit SSL encryption. </p>
+          </div>
+          <div className="text-[#CFCFCF]">|</div>
+          <div>
+            <img src={image4} alt="cards" />
+          </div>
+        </div>
+        <div className="justify-center flex">
+          <p className="underline text-[#F82C2C]">NO THANKS I DONT WANT THIS.</p>
+        </div>
+        <div className="flex flex-row gap-8">
+          <div className="w-80">
+            <img src={image6} alt="" className="w-full"/>
+          </div>
+          <div>
+            <p className="text-[#4D5254] text-base">
+            If you are not completely thrilled with your Clarifion - We have a <span className="font-bold">30 day satisfaction guarantee.</span> Please refer to our return policy at the bottom of the page for more details. Happy Shopping!
+            </p>
+          </div>
         </div>
       </div>
     </div>
