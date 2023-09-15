@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 
 const Nav = () => {
   return (
-    <div className="bg-[#252F3D] h-50 p-3 text-xs flex justify-between text-white px-36">
+    <div className="bg-[#252F3D] md:flex h-50 p-3 text-xs hidden justify-between text-white px-36">
       <div className="flex gap-2 flex-row items-center">
         <Icon icon="fluent:checkmark-starburst-20-regular" width="22" height="22" />
         <p>30-DAY SATISFACTION GUARANTEE</p>

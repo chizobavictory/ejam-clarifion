@@ -3,7 +3,7 @@ import lock from "../assets/lock.png";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between text-white bg-[#252F3D] p-8 px-36 mt-14">
+    <div className="flex md:justify-between flex-col items-center text-white bg-[#252F3D] p-8 gap-4 md:px-36 px-4 mt-14">
       <div className="text-sm flex flex-row items-center gap-2">
         <p>Copyright (c) 2023</p>
         <p>|</p>

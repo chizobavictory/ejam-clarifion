@@ -5,7 +5,7 @@ import bluefour from "../assets/bluefour.png"
 
 const Check = () => {
   return (
-    <div className="px-36 flex justify-between mt-10 text-xl">
+    <div className="px-36 md:flex hidden justify-between  mt-10 text-xl">
       <div className="flex items-center gap-2">
         <img src={greentick} alt="check" />
         <p>Step 1: Cart Review</p>

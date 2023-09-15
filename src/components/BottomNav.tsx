@@ -5,13 +5,13 @@ import logo2 from "../assets/norton-antivirus-logo 1.png";
 
 const BottomNav = () => {
   return (
-    <div className="flex justify-between px-36 p-6">
+    <div className="hidden md:flex justify-between px-36 p-6">
       <div>
         <img src={logo} alt="Logo" />
       </div>
       <div className="flex gap-6">
-        <img src={logo1} alt="Logo" className="w-full"/>
-        <img src={logo2} alt="Logo" />
+        <img src={logo1} alt="Logo" className="h-8"/>
+        <img src={logo2} alt="Logo" className="h-8"/>
       </div>
     </div>
   );

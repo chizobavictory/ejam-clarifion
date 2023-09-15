@@ -11,7 +11,7 @@ import { Icon } from "@iconify/react";
 
 const Main = () => {
   return (
-    <div className="grid grid-cols-2 gap-8 p-8 mx-36 bg-[#FAFAFA] mt-8 rounded-sm">
+    <div className="md:grid grid-cols-2 hidden gap-8 p-8 mx-36 bg-[#FAFAFA] mt-8 rounded-sm">
       <div className="flex flex-col gap-6">
         <div>
           <img src={image} alt="main" />
